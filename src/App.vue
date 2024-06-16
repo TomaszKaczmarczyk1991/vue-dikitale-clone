@@ -1,21 +1,7 @@
 <template>
-  <CountdownBar />
-  <NavBar />
+  <Index />
 </template>
 
 <script setup>
-import CountdownBar from './components/CountdownBar.vue';
-import NavBar from './components/NavBar.vue';
+import Index from './pages/Index.vue';
 </script>
-
-<style lang="scss">
-@import './assets/styles/styles.scss';
-
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  // color: #2c3e50;
-}
-</style>
