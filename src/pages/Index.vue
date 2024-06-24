@@ -1,13 +1,12 @@
 <template>
-    <CountdownBar />
-    <NavBar />
-    <Footer />
-  </template>
+    <Layout>
+      <p>slot test</p>
+    </Layout>
+</template>
   
   <script setup>
-  import CountdownBar from '../components/CountdownBar.vue';
-  import NavBar from '../components/NavBar.vue';
-  import Footer from '../components/Footer.vue';
+  import Layout from '../layout/Layout.vue';
+
   </script>
   
   <style lang="scss" scoped>

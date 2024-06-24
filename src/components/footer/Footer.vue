@@ -1,14 +1,14 @@
 <template>
-  <div class="footer">
+  <footer class="footer">
     <p>Footer</p>
-  </div>
+  </footer>
 </template>
 
 <style lang="scss" scoped>
 @import '/src/assets/styles/styles.scss';
 
 .footer {
-    position: fixed;
+    // position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
