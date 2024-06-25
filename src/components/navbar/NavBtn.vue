@@ -22,7 +22,7 @@
   </script>
   
   <style lang="scss" scoped>
-  @import '/src/assets/styles/_variables.scss';
+  @import '/src/assets/styles/styles.scss';
   
   .btn-container{
     display: flex;

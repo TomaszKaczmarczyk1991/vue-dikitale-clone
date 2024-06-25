@@ -1,11 +1,12 @@
 <template>
     <Layout>
-      <p>slot test</p>
+      <Hero />
     </Layout>
 </template>
   
   <script setup>
   import Layout from '../layout/Layout.vue';
+  import Hero from '../components/Hero.vue';
 
   </script>
   
