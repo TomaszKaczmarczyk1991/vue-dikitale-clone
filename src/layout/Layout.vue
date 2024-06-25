@@ -3,6 +3,7 @@
         <NavBar />
         <main class="layout-content">
             <slot />
+            <Hero />
         </main>
         <Footer />
     </div>
@@ -11,6 +12,7 @@
 <script setup>
 import Footer from "@/components/footer/Footer.vue";
 import NavBar from "@/components/navbar/NavBar.vue";
+import Hero from "@/components/Hero.vue";
 </script>
 
 <style lang="scss" scoped>

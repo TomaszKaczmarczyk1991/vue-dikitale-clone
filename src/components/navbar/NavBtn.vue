@@ -43,4 +43,8 @@
     }
 }
   </style>
-  
+
+<!-- TO DO:
+- highlight button when active
+- add scroll function onClick
+-->
